@@ -1,0 +1,30 @@
+<div class="center">
+<table border="1">
+    <thead> 	
+    <tr>
+        <th>Id</th>
+       <th>Name</th>
+	   <th>Email</th>
+	   <th>Password</th>
+	   <th>Message</th>
+	   <th>File</th>
+	   <th>Gender</th>
+	   <th>Hobbies</th>
+	   <th>Delete</th>
+	   
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let crud of cruds">
+		<td>{{crud.id}}</td>
+        <td>{{crud.name}}</td>
+        <td>{{crud.email}}</td>
+		<td>{{crud.password}}</td>
+		<td>{{crud.message}}</td>
+		<td>{{crud.file}}</td>
+		<td>{{crud.gender}}</td>
+		<td>{{crud.hobbies}}</td>
+    </tr>
+    </tbody>
+</table>
+</div>

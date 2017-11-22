@@ -1,0 +1,20 @@
+.hide{
+    display:none;
+}
+.title{
+    padding-left:30px;
+}
+.col{
+    padding-left:650px; 
+}
+.attachment-icon{
+    -ms-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg); 
+    transform: rotate(30deg);
+    position: absolute;
+    vertical-align: center;
+ }
+ .panel-height{
+     height:130px;
+     cursor: default;
+ }

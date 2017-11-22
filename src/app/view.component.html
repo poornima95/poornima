@@ -1,0 +1,39 @@
+<div class="center">
+<table border="1">
+    <thead> 	
+    <tr>
+		<th>Delete </th>
+       <th>Id</th>
+       <th>Name</th>
+	   <th>Role</th>
+	   <th>Status</th>
+	   <th>Date</th>
+	   <th>Gender</th>
+	   <th>Hobbies</th>
+	    <th>File</th>
+	   
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let crud of cruds">
+		<td><input type="checkbox" (change)="checkbox(crud.id)" name="checkbox[]"></td>
+		<td>{{crud.id}}</td>
+        <td>{{crud.name}}</td>
+        <td>{{crud.role}}</td>
+		<td>{{crud.status}}</td>
+		<td>{{crud.date}}</td>
+		<td>{{crud.gender}}</td>
+		<td>{{crud.hobbies}}</td>
+		<td>{{crud.file}}</td>
+		<td width=275> 
+            <a  [routerLink]="['/update']">Details</a> 
+            <a routerLink = "/update/{{crud.id}}">Edit</a>
+			<a class="btn btn-danger" (click)="deleteEmployee(crud.id)">Delete</a>
+		 
+           <a class="btn btn-danger" (click)="delemployee(crud.id)">Del</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</div>
+  <router-outlet></router-outlet>

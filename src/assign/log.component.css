@@ -1,0 +1,81 @@
+/* log history div height and width*/
+.log-table{
+    border: 2px solid #C5C5C8;
+    width:100%;
+
+}
+.attachment-icon{
+    -ms-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg); 
+    transform: rotate(30deg);
+    position: absolute;
+    padding-top:20px;
+    padding-left: 10px;
+}
+.attachment-padding{
+    padding-left:40px;
+    cursor: pointer;
+    position:relative;
+    
+}
+.attachment-second-col{
+    padding-left:700px; 
+}
+.document-icon{
+    -ms-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg); 
+    transform: rotate(30deg);
+    position: absolute;
+    
+}
+.document{
+    color:#2692CA;
+    padding-left: 24px;
+    padding-top:5px;
+}
+.category{
+  background: #2692CA;
+  color:white;
+
+  vertical-align: center;
+
+  width:200px;
+  border-radius:5px;
+  padding-left:20px;
+}
+.sub{
+padding-top:20px;
+position: absolute;
+
+}
+.category1{
+    background: #2692CA;
+    color:white;
+    border-radius:5px;
+  }
+  .description{
+      width: fit-content;
+      position: absolute;
+}
+.call-in{
+    position: absolute;
+    width: fit-content;
+    padding-top: 70px;
+}
+.document-padding {
+    position: absolute;
+    padding-top: 18px;
+}
+.category-padding{
+    position: absolute;
+    padding-top: 40px;
+}
+.title-padding{
+    padding-top: 5px;
+}
+
+.document:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}

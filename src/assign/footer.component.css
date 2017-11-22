@@ -1,0 +1,118 @@
+.footer{
+    border:1px solid #999696;
+    border-radius: 5px;
+    height:50px;
+    vertical-align: middle;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0px;
+    background:white;
+    padding-bottom: 20px;
+    width:60%;
+}
+.add-contact-padding{
+    vertical-align: middle;
+}
+.maximize-icon{
+    padding-left:1000px;
+}
+.maximize-icon:hover{
+cursor: pointer;
+}
+.add-contact{
+    color:rgb(24, 178, 233);
+    cursor:pointer;
+}
+.add-contact:hover{
+    text-decoration: underline;
+}
+.add-form{
+    border:1px solid #999696;
+    height:150px;
+    position:fixed;
+    bottom: 0px;
+    background:white;
+    padding-bottom: 30px;
+    width:60%;
+    border-radius: 5px;
+    
+}
+.dropdown-col-padding{
+    width:30%;
+    padding-left:10px;
+    position: absolute;
+    font-size: 16px;
+    text-decoration: none;
+ }
+.dropdown-col-border{
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -1px 1px #D4D5D6; 
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.dropdown1-col-padding{
+    padding-left:350px;
+    position: absolute;
+  
+ }
+ .dropdown1-col-border{
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -1px 1px #D4D5D6; 
+    width:330px;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+ .minimize-icon{
+    padding-left:880px;
+    cursor:pointer;
+ }
+ .text-area-padding{
+    padding-left:10px;
+    position: absolute;
+    padding-top:35px;
+    width:97%;
+ }
+ .text-area{
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -1px 1px #D4D5D6; 
+    position: absolute; 
+    font-size: 16px;
+    text-decoration: none;
+}
+.category-textarea-padding{
+    padding-left: 10px;
+    padding-top: 90px;
+}
+.category-textarea{
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -1px 1px #D4D5D6;
+    width: 400%; 
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.dropdown2-padding{
+    padding-top: 90px;
+    padding-left:600px;
+    position: relative;
+  
+}
+.dropdown2{
+    background: #C21111;
+    width:320px;
+    color:white;
+}
+.category-textarea:hover{
+    box-shadow: inset 0 -2px 1px #479AEE;
+
+}
+.text-area:hover{
+    box-shadow: inset 0 -2px 1px #479AEE;
+
+}

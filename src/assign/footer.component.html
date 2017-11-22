@@ -1,0 +1,46 @@
+<div class="container">
+<div class="footer"  *ngIf='!hidefooter'>
+    <table > 
+         <tr class="add-contact-padding">
+            <td class="add-contact" (click)="show()">Add anew contact?</td>
+            <td class="maximize-icon" ><i class="fa fa-window-maximize" (click)="show()"></i></td>
+         </tr>
+    </table>
+</div>
+
+<div class="add-form" *ngIf='hidefooter'>  
+    <table>
+        <tr>
+           <td class="dropdown-col-padding">
+                    <select name="role" class="form-control dropdown-col-border" >
+                    <option *ngFor="let role of dropdown1" [value]="role.value" >  {{role.display}} </option>
+                    </select>
+                </td>
+               <td class="dropdown1-col-padding">
+                    <select name="role" class="form-control dropdown1-col-border" >
+                    <option *ngFor="let role of dropdown2" [value]="role.value">  {{role.display}} </option>
+                    </select>
+                </td>
+                <td>
+                    <i class="fa fa-window-minimize minimize-icon" (click)="show()"></i>
+                </td>
+            </tr>
+            <tr>
+                <td class="text-area-padding">
+                    <textarea  placeholder="Description/Notes" class="form-control text-area"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="category-textarea-padding">
+                    <input type = "text" class="form-control category-textarea" placeholder="Categories">
+                 </td>      
+                <td class="dropdown2-padding">
+                    <select name="hobbies" class="form-control dropdown2 ">
+                    <option *ngFor="let role of dropdown3" [value]="role.value"> {{role.display}}   </option>
+                    </select>     
+                </td>
+            </tr>
+            </table>
+</div>
+</div>
+

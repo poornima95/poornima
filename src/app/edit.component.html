@@ -1,0 +1,71 @@
+<div class="center">
+   <br><br><br>
+   <form (submit)="updateEmployee()">
+      <div class = "form-group">
+         <label for = "id">ID</label>
+         <input type = "text" class = "form-control" id = "id" required
+            [ngModel]="model?.id" (ngModelChange)="model.id = $event"name = "id">
+      </div>
+      <br>
+	  
+      <div class = "form-group">
+         <label for = "name">Name</label>
+         <input type = "text" class = "form-control" id = "name"
+            [ngModel]="model?.name" (ngModelChange)="model.name = $event"  name = "name">
+      </div>
+	 <br>
+     <div class = "form-group">
+         <label for = "gender">Gender</label>
+         <div *ngFor="let gender of genders">
+        <label>
+        <input type="radio" name="gender" [(ngModel)]="model.gender" [value]="gender.value">
+        {{gender.display}}
+        </label>
+    </div>
+	</div>
+	<br>
+	<div>
+    <label>Role</label>
+    <select name="role" [(ngModel)]="model.role">
+        <option *ngFor="let role of roles" [value]="role.value">  
+        {{role.display}}
+        </option>
+    </select>
+</div>
+<br>
+<div>
+    <label>Hobbies</label>
+    <select multiple name="topics" [(ngModel)]="model.hobbies">
+        <option *ngFor="let hobby of hobbies" [value]="hobby.value">  
+            {{hobby.display}}
+        </option>
+    </select>
+</div>
+<br>
+<div>
+ <label>Status is:</label>
+    <input type="hidden" name="status" [(ngModel)]="model.status">
+    <div>
+        <label>
+            <input type="checkbox" [checked]="model.status === status[0].value" (change)="$event.target.checked? (model.status = status[0].value) : (model.status = status[1].value)">
+            {{ status[0].display }}<br>
+			</label>
+			 <label>
+            <input type="checkbox" [checked]="model.status === status[1].value" (change)="$event.target.checked? (model.status = status[1].value) : (model.status = status[1].value)">
+			{{ status[1].display }}
+        </label>
+    </div>
+</div><br>
+
+
+	   <label for ="date">Date</label>
+	  <input [ngModel]="date | date:'yyyy-MM-dd'" (ngModelChange)="model.date = $event" type="date" name="date" [ngModel]="model?.date" />
+	
+<br><br>
+	
+     
+    
+      <button type="submit">Update</button>
+      <a  (click)="goBack()">Cancel</a>
+    
+   </form>

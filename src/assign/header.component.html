@@ -1,0 +1,33 @@
+<div class="container">
+   <div class=" header"> 
+    <table class="header-cellspacing">
+        <tr>
+            <td>
+                <input type= "text" class= "form-control search-input-border ">  
+            </td>
+            <td  class="dropdown-col-padding">
+                <select name="dropdown1" class=" form-control role-dropdown" >
+                <option *ngFor="let drop of dropdown1" >  {{drop.display}} </option>
+                </select>
+            </td>
+        </tr> <br> <br>  
+       <tr>
+        <td>
+            <select name="ways" class="form-control hobbies-dropdown ">
+            <option *ngFor="let way of dropdown2" > {{way.display}}   </option>
+            </select>     
+        </td>
+        <td  class="status-checkbox-padding checkboxes">
+            <label *ngFor="let stat of checkbox">
+            <input type="checkbox" >{{ stat.display }}
+            </label>
+        </td>   
+        <td class="from-date-padding">   
+            <input type="date" class="form-control from-date">
+        </td>
+   <td class="to-date-padding">   
+            <input type="date"   class="form-control to-date"> 
+        </td>
+     </tr>
+    </table>
+</div>

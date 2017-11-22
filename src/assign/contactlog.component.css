@@ -1,0 +1,238 @@
+
+  
+input.form-control {
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -2px 0px #0789EB;
+    width:400%;
+    position:relative;
+    color:#078AEB
+    }
+  .role-dropdown
+  {
+    padding-left: 160%; 
+    border:none;
+    box-shadow: inset 0 -1px 0 #ddd;
+    border-radius: 0;
+    position:relative;
+  }
+  .form-control{
+    border:none;
+    border-radius: 0;
+    box-shadow: inset 0 -1px 0 #ddd;
+    width:8%; 
+  }
+  .checkbox{
+    padding-top:5%;
+    position:relative;
+  }
+  
+#date{
+  border:none;
+  border-radius: 0;
+  box-shadow: inset 0 -1px 0 #D7CFCF;
+  width:80%;
+  position: relative; 
+  }
+#from{
+  border:none;
+  border-radius: 0;
+  box-shadow: inset 0 -1px 0 #ddd;
+  width:90%;
+  position: relative;
+  }
+.movedate{
+position: absolute;
+padding-left:25%;
+}
+.move{
+padding-left: 30%;
+position: absolute;
+}
+#rotate{
+  -ms-transform: rotate(10deg); 
+  -webkit-transform: rotate(10deg); 
+  transform: rotate(10deg);
+  position: absolute;
+  padding-top:0.5%;
+
+}
+#position{
+
+  padding-left:25px;
+  position: relative;
+
+
+}
+#border{
+  padding-left:2%;
+  position: absolute ;
+
+
+}
+.month{
+  width:100%;
+  z-index: 0;
+  border:none;
+  border-radius: 0;
+  box-shadow: inset 0 -1px 0 #ddd;
+
+}
+#attach{
+ color:#1CAEEE;
+ padding-left:35px;
+
+}
+ #category{
+color:white;
+background-color:#1CAEEE;
+border-radius: 5px;
+}
+.whole{
+  padding-left:35px;
+}
+#rotatedoc{
+  -ms-transform: rotate(10deg); 
+  -webkit-transform: rotate(10deg); 
+  transform: rotate(10deg);
+  position: absolute;
+
+ 
+}
+#sudhead{
+  padding-left:50%;
+  position: fixed;
+}
+
+ 
+
+
+#footerdropdown{
+  padding-bottom:6%;
+  padding-left:180px;
+  position:fixed
+}
+.type{
+
+  padding-top:50px;
+  width:380px;
+  
+
+}
+#dropdown{
+  padding-left:780px;
+  padding-bottom:5%;
+  position:fixed;
+ 
+  
+}
+#color{
+  background-color:#DD3737;
+  border-radius: 5px;
+  color:white;
+  width:150px;
+ 
+}
+.minimize{
+  padding-left: 750px;
+  position:fixed;
+  
+}
+#maximize{
+  padding-left:1120px;
+  position:fixed;
+
+
+
+}
+.contact{
+border:none;
+border-radius: 0; 
+position: fixed;
+padding-bottom:5%;
+
+}
+#addcontact{
+  color:#30D3ED;
+  padding-top:50px;
+} 
+
+.bottom{
+  position:fixed;
+  box-shadow: 2px 5px 5px #ddd;
+  width:60%;
+
+}
+.footer{
+  box-shadow: 5px 5px 5px 2px #5F5B5B;
+  border:0px;
+}
+
+.hide{
+display:none;
+}
+
+#attachment{
+padding-left:50px;
+box-shadow: 1px 1px 1px -1px #ABA8A8;
+position: relative;
+width:100%;
+}
+.add{
+  box-shadow: 2px 2px 2px 2px #232121;
+}
+#attachment1{
+  padding-left:30px;
+  color:#1FB2E6 ;
+}
+.list{
+ 
+  width:100%;
+
+}
+
+.position{
+  position: fixed;
+  bottom: 0px;
+  background:white;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 2px 3px #A39E9E;
+  width:60%;
+  height:15%;
+ 
+
+}
+.text-area{
+width:150px;
+box-shadow: inset 0 -1px 0 #ddd;
+}
+.contact{
+  background-color:white;
+  width:60%;
+}
+.footer{
+  box-shadow: 2px 2px 2px 3px #A39E9E;
+
+}
+.padding{
+  padding-left: 150px;
+}
+.full-content-imp{
+  width: fit-content !important;
+}
+.footer-dropdown{
+  width:120%;
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+.footer-dropdown1{
+  width:100%;
+  box-shadow: inset 0 -2px 0 #ddd;
+
+}
+.footer-background{
+  background: white;
+  bottom: 0px;
+}
+.footer-border{
+  border:solid;
+}

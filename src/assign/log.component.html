@@ -1,0 +1,31 @@
+<div class="container">
+    <div *ngFor='let contact of month'>
+        <p><b>{{contact.month}}</b></p>
+            <table  class="log-table">
+                <tr *ngFor='let attachment of contact.attachments' class="log-table"> 
+                    <td class="attachment-padding">
+                        <panel  [title]="attachment.attach" class="attachment-position">
+                        <p class="title-padding">{{attachment.attach}}</p>
+                        <tr> 
+                            <td class="description">{{attachment.description}}</td>
+                        </tr>
+                        <tr class="document-padding"> 
+                            <td *ngFor='let document of attachment.documents' class="doc"> 
+                                <i class="material-icons document-icon">attachment</i>
+                                <span class="document">{{document.doc}}</span>
+                            </td>
+                        </tr>
+                        <tr class="category-padding">
+                             <td class="category"  *ngFor='let category of attachment.categories'>
+                                 <p>{{category.category}}</p> 
+                            </td>
+                        </tr>
+                        <tr class="call-in"> 
+                            <p>Call in-bound 12/06/17 09:31 (Mornel,Normal)</p>
+                        </tr>
+                        </panel>
+                    </td><br><br><br>
+                </tr>
+            </table><br>  
+    </div>   
+</div> 
